@@ -95,8 +95,8 @@ def mape(predicted_power, real_power):
 
 # print('MSE: %.6f' % mse)
 print('RMSE: %.6f' % rmse)
-print('MAE平均绝对误差: %.6f' % mae)
-print('决定系数: %.6f' % R2)
-# print('解释方差分: %.6f' % evs)
+print('MAE: %.6f' % mae)
+print('R2: %.6f' % R2)
+print('EVS: %.6f' % evs)
 print('MAPE:',mape(predicted_power, real_power))
 
